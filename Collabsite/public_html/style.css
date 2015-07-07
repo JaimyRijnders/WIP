@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7-jul-2015, 22:35:38
+    Author     : jaimy
+*/
+
+html {
+}
+
+body {
+	margin: 0px auto;
+	width: 100%;
+}
+
+.logo {
+	margin-top: 9px;
+	width: 50px;
+	height: 25px;
+	border-radius: 25px 10px 25px 10px;
+	border: 0px solid black;	
+	background-color: #8b8b8b;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	padding: 14px;
+	font-weight: bold;
+	font-family: 'Calibri', Sans-serif;
+	font-size: 20px;
+	text-shadow: 3px 3px 10px #404040;
+	box-shadow: 3px 3px 30px #404040 inset;
+
+	-webkit-transition: background-color 0.5s;
+    	-moz-transition: background-color 0.5s;
+    	-o-transition: background-color 0.5s;
+    	transition: background-color 0.5s;
+}
+
+.logo:hover {
+	background-color: #D6D6D6;
+}
+
+.nav {
+	width: 100%;
+	border: 0px solid red;
+}
+
+.nav .container {
+	width: 100%;
+	border: 0px solid blue;
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	font-family: 'Helvetica', Sans-serif;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav ul {
+	display: inline-block;
+}
+
+.1 {
+	float: left;
+}
+
+.2 {
+	float: right;
+}
+
+.jumbotron {
+	background-image: url('http://www.themebin.com/wp-content/uploads/hd-wallpapers/1920x1200/sydney-skyline.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	bottom: 19px;
+	box-shadow: 0px 1px 10px #808080;
+	width: 100%;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 75px;
+	left: 75px;
+	width: 90%;
+	border: 0px solid black;
+}
+
+.jumbotron h1 {
+	font-size: 45px;
+	font-family: 'Courier New', serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 10px #000000;
+	color: #ffffff;
+}
+
+.jumbotron p {
+	font-size: 21px;
+	font-family: 'Helvetica', sans-serif;
+	color: #808080;
+	position: relative;
+	bottom: 25px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #808080;
+    	-webkit-transition: color 0.5s;
+    	-moz-transition: color 0.5s;
+    	-o-transition: color 0.5s;
+    	transition: color 0.5s;
+}
+
+.nav a:hover {
+	color: #D6D6D6;
+}
+
+.main-content .container {
+	margin-left: 50px;
+}
+
+.main-content h1 {
+	font-size: 24px;
+	color: #484848;
+	font-family: 'Cambria', serif;
+}
+
+.main-content p {
+	color: red;	
+}
