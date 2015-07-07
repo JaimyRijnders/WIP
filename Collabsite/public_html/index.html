@@ -1,74 +1,100 @@
 <!DOCTYPE html>
 
 <head>
-	<title> Hello world!</title>
-        <link rel="stylesheet" type="text/css" href="style.css" >
+    <title> Hello world!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script>
+        var main = function() {
+            $('.logo').click(function(){
+               $('.nav').animate({
+                   left: "200px"
+               }, 200); 
+            });
+        };
+        
+        $(document).ready(main);
+    </script>
 </head> 
 
 <body>
 
-	<div class="nav">
+    <div class="nav">
 
-		<div class="container">
+        <div class="container">
 
-			<a href="#"><div class="logo">WIP</div></a>
-			
-			<ul class="1">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About us</a></li>
-			</ul>
+            <a href="#"><div class="logo">WIP</div></a>
 
-			<ul class="2">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact us</a></li>
-			</ul>
+            <ul class="1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
 
-		</div>
+            <ul class="2">
+                <li><a id="portfolio">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
 
-	</div>
+        </div>
 
-
-
-	<div class="jumbotron">
-	
-		<div class="container">
-			<h1>Companyname</h1>
-			
-			<p>Your company for certain services</p>
-
-			<a href="#">Learn more</a>
-		</div>
-
-	</div
+    </div>
 
 
 
-	<div class="main-content">
+    <div class="jumbotron">
 
-		<div class="container">
-			
+        <div class="container">
+            <h1>Companyname</h1>
+
+            <p>Your company for certain services</p>
+
+            <a href="#">Learn more</a>
+        </div>
+
+    </div>
+
+
+
+    <div class="about">
+
+        <div class="container">
+
             <h1>About us</h1>
             
+            <img src="http://www.findaregister.com/wp-content/uploads/2015/03/Fotolia_57325018_Subscription_Monthly_XL.jpg">
+            
             <p>We are a company that does certain things for you, such as this this and this. Our company was found in a certain year and since then we have doubled in size.</p>
-            
+
             <p>We currently have a big amount of happy customers, including famous company 1, famous company 2 and famous company 3. That's because from the start we've always tried to bring only the best to our customers</p>
+
             
-           
+
+        </div>
+
+    </div>
+
+    
+    
+    <div class="portfolio" id="portfolioID">
+        
+        <div class="container">
             
-		</div>
+            <h1>Portfolio</h1>
+            
+            <p>Lorem ipsum</p>
+            
+        </div>
+        
+    </div>
 
-	</div>
+    <div class="footer">
 
+        <div class="container">
 
+        </div>
 
-	<div class="footer">
-
-		<div class="container">
-
-		</div>
-
-	</div>
+    </div>
 
 </body> 
 
